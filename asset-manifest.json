@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/upward-test/static/css/main.8f701c2f.css",
+    "main.js": "/upward-test/static/js/main.43e858fc.js",
+    "static/media/FontsFree-Net-SF-Pro-Rounded-Regular.ttf": "/upward-test/static/media/FontsFree-Net-SF-Pro-Rounded-Regular.1eeaf1332ceeea5b68db.ttf",
+    "static/media/SF-Arabic.ttf": "/upward-test/static/media/SF-Arabic.bbf431bae87babb044b3.ttf",
+    "static/media/hero1.jpg": "/upward-test/static/media/hero1.266cfd8d10e4b60207ac.jpg",
+    "static/media/SFPRODISPLAYREGULAR.OTF": "/upward-test/static/media/SFPRODISPLAYREGULAR.d1f5e6e16dd4f75c3950.OTF",
+    "static/media/services-img3.png": "/upward-test/static/media/services-img3.5096cf3696df8ed8fc61.png",
+    "static/media/services-img2.png": "/upward-test/static/media/services-img2.dec87e6ff7f9dd67c95e.png",
+    "static/media/Inter-Regular.woff": "/upward-test/static/media/Inter-Regular.8c206db99195777c6769.woff",
+    "static/media/services-img1.png": "/upward-test/static/media/services-img1.23dc956de7680e383f37.png",
+    "static/media/services-img.png": "/upward-test/static/media/services-img.c8734877cfa32c059c0b.png",
+    "static/media/8-2.png": "/upward-test/static/media/8-2.e0b54a0dc021ba411383.png",
+    "static/media/04.png": "/upward-test/static/media/04.68b6cd96bf593b16f485.png",
+    "static/media/hero-mob1.jpg": "/upward-test/static/media/hero-mob1.f60f8f863025a1140b45.jpg",
+    "static/media/contact-img.png": "/upward-test/static/media/contact-img.a8083be94163f3224ca8.png",
+    "static/media/05.png": "/upward-test/static/media/05.c0d3e369ac5975a220ed.png",
+    "static/media/8.png": "/upward-test/static/media/8.7ae0239d7780dcfb98fd.png",
+    "static/media/close.png": "/upward-test/static/media/close.54ea1fd959f6103f39c7.png",
+    "static/media/5.png": "/upward-test/static/media/5.1d355e760bf2ecfe1599.png",
+    "static/media/3.png": "/upward-test/static/media/3.3d2287959ce241dd3011.png",
+    "static/media/1.png": "/upward-test/static/media/1.2cf88e8a702d3673e695.png",
+    "static/media/11.png": "/upward-test/static/media/11.0c55bb2712a4c01de8c3.png",
+    "static/media/4.png": "/upward-test/static/media/4.bb3071e12547ed5b5d5c.png",
+    "static/media/13.png": "/upward-test/static/media/13.b71374dda0ae2db68a8e.png",
+    "static/media/9.png": "/upward-test/static/media/9.10ff7300f858932996dd.png",
+    "index.html": "/upward-test/index.html",
+    "static/media/getFetch.cjs": "/upward-test/static/media/getFetch.c780682470504fffbd04.cjs",
+    "main.8f701c2f.css.map": "/upward-test/static/css/main.8f701c2f.css.map",
+    "main.43e858fc.js.map": "/upward-test/static/js/main.43e858fc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8f701c2f.css",
+    "static/js/main.43e858fc.js"
+  ]
+}
