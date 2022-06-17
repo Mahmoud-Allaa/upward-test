@@ -1,0 +1,281 @@
+.sec-home{
+    position: relative;
+    width:100%;
+    min-height: 100vh;
+    /* background-color: #f0f; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    /* padding-top: 80px; */
+}
+
+.sec-home .hero {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/hero1.jpg);
+    background-size: cover;
+    padding: 0 48px;
+    color: #FFFFFF;
+    box-sizing: border-box;
+}
+
+.sec-home .hero-container {
+    height: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: start;
+    padding: 80px 48px;
+    color: #FFFFFF;
+    box-sizing: border-box;
+}
+
+.sec-home .text-prop {
+    width: 90%;
+    margin-top: 150px;
+}
+
+.sec-home .text h1 {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 96px;
+    letter-spacing: -0.01em;
+    max-width: 672px ;
+    margin: 0 0 32px 0;
+}
+
+.sec-home .text2 h3 {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    margin:0;
+}
+
+.sec-home .text3 h3 {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    margin:0;
+    margin-bottom: 32px;
+}
+
+.sec-home .text3 h4 {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    margin:0;
+}
+
+.sec-home .text p {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: justify;
+    letter-spacing: -0.01em;
+    width: 60%;
+}
+
+.sec-home .text2 p {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 40px;
+    width: 60%;
+}
+
+.sec-home .text3 p {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    letter-spacing: -0.03em;
+}
+
+.sec-home .titles-container {
+    display: flex;
+    flex-direction: row;
+    /* background-color:blanchedalmond; */
+    justify-content: space-between;
+    
+}
+.sec-home .titles-container .titles {
+    width: 300px;
+}
+
+.sec-home .buttons {
+    /* position: absolute; */
+    width: 100%;
+    /* height: 20px; */
+    /* bottom: 85px; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+/* .sec-home .buttons .dot {
+    width: 18px;
+    height: 18px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 2px solid #fff;
+    margin: 0 12px;
+    margin-bottom: 48px;
+} */
+@media screen and (min-width:1201px){
+    /* .sec-home {
+        min-height: 100vh;
+    }
+    .sec-home .hero {
+        min-height: 100vh;
+    }
+    .sec-home .hero-container {
+        min-height: 95vh;
+    } */
+    .sec-home .buttons .dot {
+        width: 18px;
+        height: 18px;
+        box-sizing: border-box;
+        border-radius: 50%;
+        background-color: #fff;
+        border: 2px solid #fff;
+        margin: 0 12px;
+        margin-bottom: 48px;
+    }
+}
+@media screen and (max-width:1200px) {
+    .sec-home {
+        margin: 0;
+        padding: 0;
+        height: 390px;
+    }
+    .sec-home .hero {
+        background-image: url(../images/hero-mob1.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        padding: 0 24px;
+    }
+    .sec-home .hero-container {
+        padding: 0;
+        height: 90%;
+    } 
+
+    .sec-home .text {
+        width: 90%;
+        margin-top: 100px;
+    }
+    .sec-home .text2 {
+        width: 90%;
+        margin-top: 100px;
+    }
+    .sec-home .text3 {
+        width: 100%;
+        margin-top: 100px;
+    }
+
+    .sec-home .text h1 {
+        font-family: 'SF Pro Display';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29px;
+        letter-spacing: -0.01em;
+        max-width: 672px ;
+        margin: 0 0 32px 0;
+    }
+    
+    .sec-home .text2 h3 {
+        font-family: 'SF Pro Display';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    
+    .sec-home .text3 h3 {
+        font-family: 'SF Pro Display';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+        margin-bottom: 24px;
+    }
+    
+    .sec-home .text3 h4 {
+        font-family: 'SF Pro Display';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 14px;
+    }
+    
+    .sec-home .text p {
+        font-family: 'SF Pro Display';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        text-align: justify;
+        letter-spacing: -0.01em;
+        width: 80%;
+    }
+    
+    .sec-home .text2 p {
+        font-family: 'SF Pro Display';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+    }
+    
+    .sec-home .text3 p {
+        font-family: 'SF Pro Display';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        letter-spacing: -0.03em;
+        width: 112px;
+    }
+
+    .sec-home .buttons {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+        box-sizing: border-box;
+        /* background-color: blue; */
+        margin-bottom: 24px;
+    }
+    .sec-home .buttons .dot {
+        width: 16px;
+        height: 16px;
+        border-radius: 30px;
+        background-color: #fff;
+        border: 2px solid #fff;
+        margin: 0 6px;
+    } 
+
+    .sec-home .titles-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        /* justify-content: center; */
+        gap: 12px;
+    }
+    .sec-home .titles-container .titles {
+        width: auto;
+    }
+}

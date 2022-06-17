@@ -1,0 +1,99 @@
+{
+    "navbar": {
+        "1": "HOME",
+        "2": "SERVICES",
+        "3": "WHY US",
+        "4": "OUR PARTNERS",
+        "5": "OUR CLIENTS",
+        "6": "JOIN US"
+    },
+    "home": {
+        "1": "The Ultimate Business Solutions.",
+        "2": "Upward is an innovative full-service solutions corporate with years’ experience in consulting, management, IT solutions and development. Helping companies across various industries enhance their business. Offering them a wide range of services that exceed their expectations.",
+
+        "3":"Vision",
+        "4":"To develop business path to digital transformation",
+
+        "5":"Mission",
+        "6":"Offering a variety of managed and professional services focused on aligning client needs with innovative technology to deliver practical business outcomes.",
+
+        "7":"Values",
+
+        "8":"Trustworthiness",
+        "9":"Positive influence, improve the work culture and reliable partner.",
+
+        "10":"Balance",
+        "11":"Better technologies that meets business needs.",
+
+        "12":"Creativity",
+        "13":"High performing ideas and generate unique solutions."
+    },
+    "services": {
+        "1": "Innovations and technologies",
+
+        "2": "Consultation",
+        "3": "Ensure that your technology decision meets your business needs.",
+
+        "4": "Project management",
+        "5": "Team of experts to manage, plan, supervision.",
+
+        "6": "Website development",
+        "7": "Proficient web developers in various web development verticals.",
+
+        "8": "Digital marketing, E-commerce",
+        "9": "Diverse set of marketing solutions available to enhance the online presence and boosting online sales.",
+
+        "10": "Mobile applications",
+        "11": "Team of experts to manage, plan, supervision.",
+
+        "12": "Business system",
+        "13": "Evolve business according your business needs with management software tools that include CRM, ERP.",
+
+        "14": "Security solutions",
+        "15": "IT security consulting designed to determine level of risk to shore up your security offers considerable risk reduction.",
+
+        "16": "Support contract",
+        "17": "Support your resources by external contracts to ensure that the technical aspects of your business run with best evolution.",
+
+        "18": "Outsourcing",
+        "19": "Outsourcing solutions and support service partner to deliver various elements focus on business core needs."
+    },
+    "whyUs": {
+        "1": "Our culture",
+
+        "2": "01",
+        "3": "We offer a variety of managed and professional services focused on balancing client needs with innovative technologies.",
+
+        "4": "02",
+        "5": "We design, evaluate and justify technology solutions from a thorough understanding of the business.",
+
+        "6": "03",
+        "7": "We integrate with your business. Our staff are trustworthy and experienced."
+    },
+    "ourPartners": {
+        "1": "Our partners"
+    },
+    "ourClients": {
+        "1": "Our clients"
+    },
+   "footer": {
+    "1": "عربي (مصر)"
+    },
+    "contact": {
+        "1": "Write to us",
+        "2": "LET’S WORK TOGETHER",
+
+        "3": "Name",
+        "4": "Phone",
+        "5": "Email",
+        "6": "Company",
+        "7": "Reason",
+        "7-1": "Select Reason",
+        "7-2": "Project",
+        "7-3": "Job Vacancy",
+        "7-4": "Partnership",
+        "7-5": "Other ...",
+        "8": "Message",
+        "9": "Send"
+    }
+}

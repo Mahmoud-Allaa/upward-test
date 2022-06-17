@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url(assets/fonts/SFPRODISPLAYREGULAR.OTF);
+}
+
+@font-face {
+  font-family: 'SF Pro Rounded';
+  src: url(assets/fonts/FontsFree-Net-SF-Pro-Rounded-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url(assets/fonts/Inter-Regular.woff);
+}
+
+@font-face {
+  font-family: 'SF Arabic';
+  src: url(assets/fonts/SF-Arabic.ttf);
+}
+
+button {
+  cursor: pointer;
+}

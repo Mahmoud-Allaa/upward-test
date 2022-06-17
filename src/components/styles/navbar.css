@@ -1,0 +1,73 @@
+.navbar {
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 2;
+    direction: ltr !important;
+}
+.nav-conainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    margin-right: 48px;
+    /* background-color: aqua; */
+}
+.navbar .menu {
+    display: none;
+}
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+    padding: 0;
+    /* background-color: blanchedalmond; */
+}
+
+.navbar ul li {
+    list-style: none;
+    margin-right: 48px;
+}
+
+.navbar li a {
+    color: #3D3C3C;
+    text-decoration: none;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20.139px;
+    line-height: 24px;
+    /* identical to box height */
+
+text-align: center;
+}
+
+.navbar ul .contact-btn {
+    color: #fff;
+}
+
+.navbar .contact-btn a {
+    padding: 8px 24px;
+    background-color: #1EABE3;
+    border-radius: 20px;
+    color:#fff;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 1200px) {
+    .navbar {
+        display: none;
+    }
+}

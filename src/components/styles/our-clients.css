@@ -1,0 +1,124 @@
+::-webkit-scrollbar {
+    width: 0px; /* Remove scrollbar space */
+    background: transparent; /* Optional: just make scrollbar invisible */
+  }
+.sec-our-clients {
+    padding: 120px 0;
+}
+
+.sec-our-clients h2 {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+
+    color: #3D3C3C;
+}
+
+.sec-our-clients .clients-slider {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* margin: 0 62px; */
+    overflow: auto;
+    padding: 80px 0 40px 80px;
+    scroll-behavior: smooth;
+}
+
+.sec-our-clients .clients-slider .client {
+    width: 208px;
+    height: 226px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF;
+    box-shadow: 4px 4px 25px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    margin: 0 24px;
+    padding: 0 50px;
+    box-sizing: border-box;
+}
+.sec-our-clients .client .mob {
+    display: none;
+}
+
+.scroller {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 48px;
+    margin-top: 40px;
+    direction: ltr!important;
+}
+
+.scroller .scroll-btn {
+    width: 48px;
+    height: 48px;
+    border-radius:50%;
+    border: 0;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.scroll-btn img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 48px;
+    height: 48px;
+}
+
+.scroll-btn .active:active {
+    display: none;
+}
+
+@media screen and (max-width:1200px) {
+    .sec-our-clients {
+        padding: 24px 0;
+    }
+    .sec-our-clients h2 {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .sec-our-clients .clients-slider {
+        padding: 24px 0 24px 24px;
+    }
+    .sec-our-clients .clients-slider .client {
+        width: 70px;
+        height: 65px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 7px;
+        padding: 0 14px;
+        box-sizing: border-box;
+
+        box-shadow: 1.24118px 1.24118px 7.75739px rgba(0, 0, 0, 0.25);
+        border-radius: 6.20592px;
+    }
+    .sec-our-clients .client img {
+        display: none;
+    }
+    .sec-our-clients .client .mob {
+        display: block;
+    }
+
+    .scroller .scroll-btn {
+        width: 24px;
+        height: 24px;
+    }
+    
+    .scroll-btn img {
+        width: 30px;
+        height: 30px;
+    }
+    .scroller {
+        padding: 0 24px;
+        margin-top: 40px;
+    }
+}

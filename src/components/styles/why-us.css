@@ -1,0 +1,127 @@
+.sec-why-us {
+    background-color: #484848;
+    padding: 90px 0 ;
+    color: #fff;
+    position: relative;
+}
+
+.sec-why-us h2{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44.9443px;
+    line-height: 54px;
+    text-align: center;
+    margin-bottom:90px;
+}
+
+.sec-why-us .cultures {
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: center;
+    text-align: start;
+    margin-bottom: 200px;
+}
+
+.sec-why-us .culture {
+    width: 254px;
+}
+.sec-why-us .culture.mg {
+    margin:0 120px
+}
+
+.sec-why-us .culture .img {
+    margin-bottom: -35px;
+    margin-left:70%;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 96px;
+    line-height: 103%;
+    color: #6A808C;
+}
+
+.sec-why-us .culture p {
+    margin-top: -30px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 104%;
+    /* or 25px */
+
+
+    color: #FFFFFF;
+}
+
+.sec-why-us .culture4 {
+    position: absolute;
+    top: 48px;
+    left: 0;
+}
+.sec-why-us .culture5 {
+    position: absolute;
+    bottom: 16px;
+    right: 0px;
+}
+
+.sec-why-us .culture4.mob {
+    display: none;
+}
+.sec-why-us .culture5.mob {
+    display: none;
+}
+
+@media screen and (max-width:1200px) {
+
+    .sec-why-us {
+        padding: 24px 0 ;
+    }
+    
+    .sec-why-us h2{
+        font-size: 12px;
+        line-height: 14px;
+        margin-bottom:24px;
+    }
+    
+    .sec-why-us .cultures {
+        margin-bottom: 0;
+        justify-content: space-around;
+    }
+    
+    .sec-why-us .culture {
+        width: 109px;
+    }
+    .sec-why-us .culture.mg {
+        margin:0;
+    }
+    
+    .sec-why-us .culture .img {
+        margin-bottom: -35px;
+        margin-left:70%;
+        font-weight: 500;
+        font-size: 26px;
+    }
+    
+    .sec-why-us .culture p {
+        margin-top: -10px;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 103%;
+    }
+
+    .sec-why-us .culture4.desk {
+        display: none;
+    }
+    .sec-why-us .culture5.desk {
+        display: none;
+    }
+    .sec-why-us .culture4.mob {
+        display: block;
+        top: 12px;
+    }
+    .sec-why-us .culture5.mob {
+        display: block;
+    }
+}
