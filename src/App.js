@@ -27,7 +27,7 @@ function App() {
   useEffect(() => {
     demoAsyncCall().then(() => setLoading(false));
     AOS.init({
-      duration: 800,
+      duration: 1000,
       delay: 300,
     });
   }, []);
