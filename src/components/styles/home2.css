@@ -116,25 +116,12 @@
 }
 
 .sec-home .buttons {
-    /* position: absolute; */
     width: 100%;
-    /* height: 20px; */
-    /* bottom: 85px; */
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
 }
-/* .sec-home .buttons .dot {
-    width: 18px;
-    height: 18px;
-    box-sizing: border-box;
-    border-radius: 50%;
-    background-color: #fff;
-    border: 2px solid #fff;
-    margin: 0 12px;
-    margin-bottom: 48px;
-} */
 @media screen and (min-width:1201px){
     /* .sec-home {
         min-height: 100vh;

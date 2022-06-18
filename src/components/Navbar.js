@@ -14,7 +14,9 @@ export default function Navbar() {
 
   return (
     <div
-      style={{ fontFamily: language == "ar" && "SF Arabic" }}
+      style={{
+        fontFamily: language == "ar" && "SF Arabic",
+      }}
       className="navbar"
     >
       <Link smooth to="/#home" className="logo">
