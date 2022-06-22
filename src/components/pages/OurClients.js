@@ -40,13 +40,16 @@ export default function OurClients() {
 
   const sliderLeft = () => {
     var slider = document.getElementById("slider");
-    slider.scrollLeft = slider.scrollLeft - 300;
+    slider.scrollLeft = slider.scrollLeft - scrolling;
   };
 
   const sliderRight = () => {
     var slider = document.getElementById("slider");
-    slider.scrollLeft = slider.scrollLeft + 300;
+    slider.scrollLeft = slider.scrollLeft + scrolling;
   };
+
+  const width = window.innerWidth;
+  const scrolling = width * 0.85;
 
   return (
     <div id="ourclients" className="sec-our-clients">
@@ -106,7 +109,11 @@ export default function OurClients() {
         </div>
       </div>
       <div className="scroller">
-        <button className="scroll-btn" onClick={sliderLeft}>
+        <button
+          className="scroll-btn"
+          onClick={sliderLeft}
+          onTouchStart={sliderLeft}
+        >
           <div className="arrow">
             <img src={leftIcon1} />
           </div>
@@ -114,7 +121,11 @@ export default function OurClients() {
             <img src={leftIcon} />
           </div>
         </button>
-        <button className="scroll-btn" onClick={sliderRight}>
+        <button
+          className="scroll-btn"
+          onClick={sliderRight}
+          onTouchStart={sliderRight}
+        >
           <div className="arrow">
             <img src={rightIcon1} />
           </div>

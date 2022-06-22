@@ -1,7 +1,7 @@
 .sec-home{
     position: relative;
     width:100%;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     /* background-color: #f0f; */
     display: flex;
     align-items: flex-start;
@@ -123,9 +123,10 @@
     justify-content: center;
 }
 @media screen and (min-width:1201px){
-    /* .sec-home {
+    .sec-home {
         min-height: 100vh;
     }
+    /* 
     .sec-home .hero {
         min-height: 100vh;
     }
@@ -147,13 +148,14 @@
     .sec-home {
         margin: 0;
         padding: 0;
-        height: 390px;
+        height: 70vh;
     }
     .sec-home .hero {
         background-image: url(../images/hero-mob1.jpg);
         background-size:cover;
         background-repeat: no-repeat;
         padding: 0 24px;
+        height: 100%;
     }
     .sec-home .hero-container {
         padding: 0;

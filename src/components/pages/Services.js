@@ -84,13 +84,16 @@ export default function Services() {
 
   const sliderLeft = () => {
     var slider = document.getElementById("slider2");
-    slider.scrollLeft = slider.scrollLeft - 300;
+    slider.scrollLeft = slider.scrollLeft - scrolling;
   };
 
   const sliderRight = () => {
     var slider = document.getElementById("slider2");
-    slider.scrollLeft = slider.scrollLeft + 300;
+    slider.scrollLeft = slider.scrollLeft + scrolling;
   };
+
+  const width = window.innerWidth;
+  const scrolling = width * 0.85;
 
   return (
     <div
@@ -128,7 +131,11 @@ export default function Services() {
         })}
       </div>
       <div className="scroller">
-        <button className="scroll-btn" onClick={sliderLeft}>
+        <button
+          className="scroll-btn"
+          onClick={sliderLeft}
+          onTouchStart={sliderLeft}
+        >
           <div className="arrow">
             <img src={leftIcon1} />
           </div>
@@ -136,7 +143,11 @@ export default function Services() {
             <img src={leftIcon} />
           </div>
         </button>
-        <button className="scroll-btn" onClick={sliderRight}>
+        <button
+          className="scroll-btn"
+          onClick={sliderRight}
+          onTouchStart={sliderRight}
+        >
           <div className="arrow">
             <img src={rightIcon1} />
           </div>
