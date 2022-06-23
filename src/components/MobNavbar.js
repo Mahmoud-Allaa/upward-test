@@ -23,63 +23,48 @@ export default function MobNavbar({ color }) {
 
   return (
     <div className="mob-navbar">
-      {menu ? (
-        <div className="layout">
-          <div className="active-menu">
-            <ul onClick={() => setMenu(false)}>
-              <li className="close-menu">
-                <img src={closeIcon} />
-              </li>
-              <li>
-                <Link smooth to="/#">
-                  {t("navbar.1")}
-                </Link>
-              </li>
-              <li>
-                <Link smooth to="/#services">
-                  {t("navbar.2")}
-                </Link>
-              </li>
-              <li>
-                <Link smooth to="/#whyus">
-                  {t("navbar.3")}
-                </Link>
-              </li>
-              <li>
-                <Link smooth to="/#ourpartners">
-                  {t("navbar.4")}
-                </Link>
-              </li>
-              <li>
-                <Link smooth to="/#ourclients">
-                  {t("navbar.5")}
-                </Link>
-              </li>
-              <li>
-                <Link smooth to="/contact">
-                  {t("navbar.6")}
-                </Link>
-              </li>
-            </ul>
-            <button
-              onClick={() =>
-                language === "ar" ? handleClick("en") : handleClick("ar")
-              }
-              className="language"
-            >
-              <img className="mob" src={earthIconMob} alt="" />
-              <span>{t("footer.1")}</span>
-            </button>
-          </div>
+      <div className="mob-logo">
+        <img src={color == "black" ? blackLogo : logo} alt="logo" />
+        <div onClick={() => setMenu(true)} className="menu">
+          <img src={color == "black" ? menuIcon2 : menuIcon} alt="logo" />
         </div>
-      ) : (
-        <div className="mob-logo">
-          <img src={color == "black" ? blackLogo : logo} alt="logo" />
-          <div onClick={() => setMenu(true)} className="menu">
-            <img src={color == "black" ? menuIcon2 : menuIcon} alt="logo" />
-          </div>
+
+        {menu && <div onClick={() => setMenu(false)} className="layout"></div>}
+        <div className={menu ? "active-menu active" : "active-menu"}>
+          <ul onClick={() => setMenu(false)}>
+            <li>
+              <Link smooth to="/#">
+                {t("navbar.1")}
+              </Link>
+            </li>
+            <li>
+              <Link smooth to="/#services">
+                {t("navbar.2")}
+              </Link>
+            </li>
+            <li>
+              <Link smooth to="/#whyus">
+                {t("navbar.3")}
+              </Link>
+            </li>
+            <li>
+              <Link smooth to="/#ourpartners">
+                {t("navbar.4")}
+              </Link>
+            </li>
+            <li>
+              <Link smooth to="/#ourclients">
+                {t("navbar.5")}
+              </Link>
+            </li>
+            <li>
+              <Link smooth to="/contact">
+                {t("navbar.6")}
+              </Link>
+            </li>
+          </ul>
         </div>
-      )}
+      </div>
     </div>
   );
 }
