@@ -7,25 +7,29 @@ import { useTranslation } from "react-i18next";
 import menuIcon from "./images/menu.png";
 import menuIcon2 from "./images/menu2.png";
 import closeIcon from "./images/close.png";
-import logo from "./images/mob-logo.png";
-import blackLogo from "./images/black-mob-logo.png";
+import logo from "./images/footer-logo.png";
+import blackLogo from "./images/logo.png";
 import earthIconMob from "./images/footer/8-2.png";
 
 export default function MobNavbar({ color }) {
   const { t, i18n } = useTranslation();
   const [menu, setMenu] = useState(false);
-
-  function handleClick(lang) {
-    i18n.changeLanguage(lang);
-    setMenu(false);
-  }
   const language = i18n.language;
+
+  // function handleClick(lang) {
+  //   i18n.changeLanguage(lang);
+  //   setMenu(false);
+  // }
 
   return (
     <div className="mob-navbar">
       <div className="mob-logo">
         <Link smooth to="/#home">
-          <img src={color == "black" ? blackLogo : logo} alt="logo" />
+          <img
+            className="logo"
+            src={color == "black" ? blackLogo : logo}
+            alt="logo"
+          />
         </Link>
         <div onClick={() => setMenu(true)} className="menu">
           <img src={color == "black" ? menuIcon2 : menuIcon} alt="logo" />

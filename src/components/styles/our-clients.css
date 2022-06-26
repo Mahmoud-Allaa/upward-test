@@ -86,7 +86,7 @@
         line-height: 14px;
     }
     .sec-our-clients .clients-slider {
-        padding: 24px 0 24px 24px;
+        padding: 24px 16px;
     }
     .sec-our-clients .clients-slider .client {
         width: 70px;
@@ -102,10 +102,8 @@
         border-radius: 6.20592px;
     }
     .sec-our-clients .client img {
-        display: none;
-    }
-    .sec-our-clients .client .mob {
-        display: block;
+        max-width: 50px;
+        max-height: 50px;
     }
 
     .scroller .scroll-btn {

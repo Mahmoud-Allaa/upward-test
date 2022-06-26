@@ -57,55 +57,42 @@ export default function OurClients() {
       <div id="slider" className="clients-slider">
         <div className="client">
           <img src={client1} alt="" />
-          <img className="mob" src={client1Mob} alt="" />
         </div>
         <div className="client">
           <img src={client2} alt="" />
-          <img className="mob" src={client2Mob} alt="" />
         </div>
         <div className="client">
           <img src={client3} alt="" />
-          <img className="mob" src={client3Mob} alt="" />
         </div>
         <div className="client">
           <img src={client4} alt="" />
-          <img className="mob" src={client4Mob} alt="" />
         </div>
         <div className="client">
           <img src={client5} alt="" />
-          <img className="mob" src={client5Mob} alt="" />
         </div>
         <div className="client">
           <img src={client6} alt="" />
-          <img className="mob" src={client6Mob} alt="" />
         </div>
         <div className="client">
           <img src={client7} alt="" />
-          <img className="mob" src={client7Mob} alt="" />
         </div>
         <div className="client">
           <img src={client8} alt="" />
-          <img className="mob" src={client8Mob} alt="" />
         </div>
         <div className="client">
           <img src={client9} alt="" />
-          <img className="mob" src={client9Mob} alt="" />
         </div>
         <div className="client">
           <img src={client10} alt="" />
-          <img className="mob" src={client10Mob} alt="" />
         </div>
         <div className="client">
           <img src={client11} alt="" />
-          <img className="mob" src={client11Mob} alt="" />
         </div>
         <div className="client">
           <img src={client12} alt="" />
-          <img className="mob" src={client12Mob} alt="" />
         </div>
         <div className="client">
           <img src={client13} alt="" />
-          <img className="mob" src={client13Mob} alt="" />
         </div>
       </div>
       <div className="scroller">

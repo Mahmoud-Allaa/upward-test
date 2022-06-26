@@ -11,7 +11,7 @@
     font-weight: 700;
     font-size: 44.9443px;
     line-height: 54px;
-    /* identical to box height */
+    margin-bottom: 100px;
 
     text-align: center;
 
@@ -45,6 +45,7 @@
         font-weight: 700;
         font-size: 12px;
         line-height: 14px;
+        margin-bottom: 40px;
     }
     .sec-our-partners .row {
         display: flex;
@@ -54,16 +55,13 @@
         width: 90%;
         max-width: 330px;
     }
-    .sec-our-partners .desk {
+    /* .sec-our-partners .desk {
         display: none;
     }
     .sec-our-partners .mob {
         display: block;
-    }
-    /* .sec-our-partners .mob.mg-r {
-        margin-right: -16px;
-    }
-    .sec-our-partners .mob.mg-l {
-        margin-left: -16px;
     } */
+    .sec-our-partners .row img {
+        max-width: 40px;
+    }
 }
