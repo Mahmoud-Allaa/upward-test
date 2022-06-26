@@ -9,7 +9,7 @@ import Contact from "./Contact";
 
 export default function MainPage() {
   return (
-    <div className="main-page">
+    <div className="main-page" style={{ width: "100vw", overflow: "hidden" }}>
       <Home />
       <Services />
       <WhyUs />

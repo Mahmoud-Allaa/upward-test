@@ -1,9 +1,11 @@
 .sec-contact {
+    position: relative;
     display: flex;
     flex-direction: row;
     padding: 120px 70px;
     justify-content: space-between;
     align-items: flex-start;
+    overflow: hidden;
 }
 
 .sec-contact .text {
