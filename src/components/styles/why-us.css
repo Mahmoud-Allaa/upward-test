@@ -123,5 +123,7 @@
     }
     .sec-why-us .culture5.mob {
         display: block;
+        width: 60px;
+        bottom: 2px;
     }
 }
