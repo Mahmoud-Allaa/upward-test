@@ -24,7 +24,9 @@ export default function MobNavbar({ color }) {
   return (
     <div className="mob-navbar">
       <div className="mob-logo">
-        <img src={color == "black" ? blackLogo : logo} alt="logo" />
+        <Link smooth to="/#home">
+          <img src={color == "black" ? blackLogo : logo} alt="logo" />
+        </Link>
         <div onClick={() => setMenu(true)} className="menu">
           <img src={color == "black" ? menuIcon2 : menuIcon} alt="logo" />
         </div>

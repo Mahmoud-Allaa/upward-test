@@ -39,7 +39,7 @@ export default function Contact() {
         <div className="contact-modal">
           <div className="overlay">
             <div className="modal-content">
-              <span>Thank you!</span>
+              <span>{t("contact.10")}</span>
               <Link smooth to="/#">
                 {t("contact.11")}
               </Link>
@@ -56,11 +56,26 @@ export default function Contact() {
           </div>
           <form onSubmit={sendEmail}>
             <label htmlFor="">{t("contact.3")}</label>
-            <input name="name" type="text" placeholder={t("contact.3")} />
+            <input
+              name="name"
+              type="text"
+              placeholder={t("contact.3")}
+              required
+            />
             <label htmlFor="">{t("contact.4")}</label>
-            <input name="phone" type="numeric" placeholder={t("contact.4")} />
+            <input
+              name="phone"
+              type="numeric"
+              placeholder={t("contact.4")}
+              required
+            />
             <label htmlFor="">{t("contact.5")}</label>
-            <input name="email" type="email" placeholder={t("contact.5")} />
+            <input
+              name="email"
+              type="email"
+              placeholder={t("contact.5")}
+              required
+            />
             <label htmlFor="">{t("contact.6")}</label>
             <input name="company" type="text" placeholder={t("contact.6")} />
             <label htmlFor="reason">{t("contact.7")}</label>

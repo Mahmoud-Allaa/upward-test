@@ -6,6 +6,8 @@
     justify-content: space-between;
     align-items: flex-start;
     overflow: hidden;
+    min-height: 100vh;
+    box-sizing: border-box;
 }
 
 .sec-contact .text {
