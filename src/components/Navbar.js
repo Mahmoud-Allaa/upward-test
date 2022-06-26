@@ -13,19 +13,14 @@ import { useEffect } from "react";
 export default function Navbar() {
   const { t, i18n } = useTranslation();
   const language = i18n.language;
-  const [navArrow, setNavArrow] = useState("home");
+  const [navArrow, setNavArrow] = useState("null");
 
   return (
     <div
       style={{ fontFamily: language == "ar" && "SF Arabic" }}
       className="navbar"
     >
-      <Link
-        onClick={() => setNavArrow("home")}
-        smooth
-        to="/#home"
-        className="logo"
-      >
+      <Link smooth to="/#home" className="logo">
         <img src={logo} alt="logo" />
       </Link>
 

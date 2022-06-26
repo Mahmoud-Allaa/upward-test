@@ -16,7 +16,7 @@ export default function Home() {
     } else {
       setActiveBtn(1);
     }
-  }, 5000);
+  }, 10000);
 
   return (
     <div id="home" className="sec-home">
