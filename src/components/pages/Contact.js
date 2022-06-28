@@ -35,9 +35,52 @@ export default function Contact() {
 
   return (
     <div id="contact" className="sec-contact">
-      {modal ? (
+      <MobNavbar color="black" />
+      <div className="text">
+        <span>{t("contact.1")}</span>
+        <h2>{t("contact.2")}</h2>
+        <img src={img} alt="" />
+      </div>
+      <form onSubmit={sendEmail}>
+        <label htmlFor="">{t("contact.3")}</label>
+        <input name="name" type="text" placeholder={t("contact.3")} required />
+        <label htmlFor="">{t("contact.4")}</label>
+        <input
+          name="phone"
+          type="numeric"
+          placeholder={t("contact.4")}
+          required
+        />
+        <label htmlFor="">{t("contact.5")}</label>
+        <input
+          name="email"
+          type="email"
+          placeholder={t("contact.5")}
+          required
+        />
+        <label htmlFor="">{t("contact.6")}</label>
+        <input name="company" type="text" placeholder={t("contact.6")} />
+        <label htmlFor="reason">{t("contact.7")}</label>
+        <select id="reason" name="reason">
+          <option hidden>{t("contact.7-1")}</option>
+          <option value="Project">{t("contact.7-2")}</option>
+          <option value="Job vacancy">{t("contact.7-3")}</option>
+          <option value="Partnership">{t("contact.7-4")}</option>
+          <option value="Other">{t("contact.7-5")}</option>
+        </select>
+        <label htmlFor="">{t("contact.8")}</label>
+        <textarea
+          name="message"
+          rows="4"
+          cols="50"
+          placeholder={t("contact.8")}
+        />
+        <button type="submit">{t("contact.9")}</button>
+      </form>
+
+      {modal && (
         <div className="contact-modal">
-          <div className="overlay">
+          <div onClick={() => setModal(false)} className="overlay">
             <div className="modal-content">
               <span>{t("contact.10")}</span>
               <Link smooth to="/#">
@@ -46,56 +89,6 @@ export default function Contact() {
             </div>
           </div>
         </div>
-      ) : (
-        <>
-          <MobNavbar color="black" />
-          <div className="text">
-            <span>{t("contact.1")}</span>
-            <h2>{t("contact.2")}</h2>
-            <img src={img} alt="" />
-          </div>
-          <form onSubmit={sendEmail}>
-            <label htmlFor="">{t("contact.3")}</label>
-            <input
-              name="name"
-              type="text"
-              placeholder={t("contact.3")}
-              required
-            />
-            <label htmlFor="">{t("contact.4")}</label>
-            <input
-              name="phone"
-              type="numeric"
-              placeholder={t("contact.4")}
-              required
-            />
-            <label htmlFor="">{t("contact.5")}</label>
-            <input
-              name="email"
-              type="email"
-              placeholder={t("contact.5")}
-              required
-            />
-            <label htmlFor="">{t("contact.6")}</label>
-            <input name="company" type="text" placeholder={t("contact.6")} />
-            <label htmlFor="reason">{t("contact.7")}</label>
-            <select id="reason" name="reason">
-              <option hidden>{t("contact.7-1")}</option>
-              <option value="Project">{t("contact.7-2")}</option>
-              <option value="Job vacancy">{t("contact.7-3")}</option>
-              <option value="Partnership">{t("contact.7-4")}</option>
-              <option value="Other">{t("contact.7-5")}</option>
-            </select>
-            <label htmlFor="">{t("contact.8")}</label>
-            <textarea
-              name="message"
-              rows="4"
-              cols="50"
-              placeholder={t("contact.8")}
-            />
-            <button type="submit">{t("contact.9")}</button>
-          </form>
-        </>
       )}
     </div>
   );

@@ -127,16 +127,16 @@
 
 .sec-contact .contact-modal {
     width: 100vw;
-    height: 100vh;
-    background-color: #fff;
+    height: 100%;
+    /* background-color: #fff; */
     position: absolute;
     top: 0;
     left: 0;
 }
 .sec-contact .contact-modal .overlay {
     width: 100vw;
-    height: 100vh;
-    background-color: rgba(72, 72, 72, 0.49);
+    height:100%;
+    background-color: rgba(0, 0, 0, 0.2);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -148,6 +148,7 @@
     background-color: #fff;
     border: 1px solid #1EABE3;
     border-radius: 30px;
+    box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.25);
     width: 400px;
     height: 175px;
     box-sizing: border-box;
